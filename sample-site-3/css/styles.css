@@ -1,0 +1,185 @@
+body {
+    background-color: rgba(254, 255, 255, 0.952);
+}
+
+.container-fluid {
+    padding: 0.5% 15% 7%;
+}
+
+
+/* Navigation Bar */
+
+#navigation-bar {
+    margin-bottom: 10rem;
+}
+
+.nav-brand {
+    margin-right: 3rem;
+}
+
+.bg {
+    position: absolute;
+    height: 4.1rem;
+    background-color: #30e3ca;
+    z-index: -1;
+    top: 0px;
+    left: 0;
+    width: 100%;
+}
+
+.bg-toggle-on {
+    height: 19rem;
+}
+
+.btn {
+    border-radius: 2rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 10px;
+}
+
+.btnSearch {
+    padding: 4px 4px;
+}
+
+
+/* Top */
+
+.imgBackground {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: -2;
+    top: 0;
+}
+
+.imgBackground-toggle {
+    top: 15rem;
+}
+
+#top {
+    padding-bottom: 6rem;
+}
+
+.padding-TB {
+    padding: 3rem 0px;
+}
+
+.nav-item-cursor {
+    cursor: pointer;
+}
+
+
+/* Middle part */
+
+#bottom {
+    background-color: #eeeeee;
+    padding: 1rem 2rem;
+}
+
+.houseWorth {
+    height: 22rem;
+    width: 100%;
+    border-radius: 100px;
+}
+
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: #30e3ca;
+    padding: 3rem;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media(min-width:320px) {
+    .imgBackground {
+        height: 55rem;
+    }
+    .card-body {
+        height: 478px;
+    }
+}
+
+@media(min-width: 375px) {
+    .imgBackground {
+        height: 55rem;
+    }
+    .card-body {
+        height: 478px;
+    }
+}
+
+@media (max-width: 576px) {
+    .imgBackground {
+        height: 55rem;
+    }
+    .card-body {
+        height: 478px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .imgBackground {
+        height: 52rem;
+    }
+    .card-body {
+        height: 478px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .imgBackground {
+        height: 52rem;
+    }
+    .card-body {
+        height: 478px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .imgBackground {
+        height: 42rem;
+    }
+    .card-body {
+        height: 300px;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .imgBackground {
+        height: 42rem;
+    }
+    .card-body {
+        height: 300px;
+    }
+    #bottom {
+        padding: 1rem 15rem;
+    }
+}

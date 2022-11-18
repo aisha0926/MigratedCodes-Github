@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/search"
+        android:textColor="@color/white"
+        android:background="@color/purple_700"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="gravity"
+        android:textColorHint="@color/white"
+        android:gravity="start"
+        android:importantForAutofill="no" />
+
+
+    <View
+        android:layout_width="400dp"
+        android:layout_height="2dp"
+        android:background="@color/purple_500"/>-->
+
+    <FrameLayout
+        android:id="@+id/musicListFragment"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        tools:layout="@layout/recycler_main" />
+
+</RelativeLayout>

@@ -1,0 +1,181 @@
+body {
+  font-family: "Montserrat", serif;
+  color: lightseagreen;
+}
+
+/*
+   ###############################
+       Background colours
+   ###############################
+*/
+
+.bg-light-cyan {
+  background-color: lightcyan;
+}
+
+/*
+   ###############
+    Font Classes
+   ###############
+*/
+
+.sacramento {
+  font-family: "Sacramento", serif;
+  font-weight: 100;
+  font-size: 4.5rem;
+  line-height: 1rem;
+}
+
+.headings {
+  font-family: "Merriweather", serif;
+  line-height: 3.5rem;
+}
+
+/*
+   ###############
+       Spacing
+   ###############
+*/
+
+.pd-30 {
+  padding: 5rem 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.table-design {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.table-design td {
+  padding: 3px 10px;
+}
+
+.pd-top-bottom {
+  padding: 1rem 0;
+}
+
+/*
+   ###############
+      Navigation
+   ###############
+*/
+
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+/*
+   ###############
+      Top Sections
+   ###############
+*/
+
+#top-container {
+  height: 38rem;
+}
+
+#brand-image {
+  height: 50px;
+  width: 50px;
+  margin-right: 1rem;
+}
+
+#my-img {
+  border-radius: 30%;
+  height: 300px;
+  width: 400px;
+  float: right;
+}
+
+.container-fluid {
+  padding: 1% 15%;
+}
+/*
+   ###################
+    About me Section
+   ###################
+*/
+
+.no-style {
+  list-style: none;
+}
+
+/*
+   ###################
+    Projects Section
+   ###################
+*/
+
+.card-background {
+  background-color: rgba(2, 180, 250, 0.2);
+}
+
+.card-background:hover {
+  background-color: rgba(2, 250, 52, 0.2);
+}
+
+.card-background:active {
+  background-color: rgba(250, 2, 2, 0.2);
+}
+
+.card-column {
+  padding: 3% 2%;
+}
+
+/*
+   ###################
+    Contact me Section
+   ###################
+*/
+
+.email-btn {
+  margin: 5% 3% 5% 0;
+  padding: 2% 5%;
+}
+
+/*
+   ###################
+    Media Queries
+   ###################
+*/
+
+@media (max-width: 1028px) {
+  #my-img {
+    height: 200px;
+    width: 350px;
+    float: none;
+  }
+}
+
+@media (max-width: 450px) {
+  #my-img {
+    height: 180px;
+    width: 220px;
+    float: none;
+  }
+}
+
+@media (max-width: 405px) {
+  .title-line-height {
+    line-height: 4rem;
+  }
+
+  .pd-30 {
+    padding: 4rem 0 3.5rem 0;
+  }
+}
+
+@media (min-width: 1028px) {
+  #my-img {
+    height: 400px;
+    width: 500px;
+    position: relative;
+  }
+  .pd-30 {
+    padding: 10rem 0 5rem 0;
+  }
+}

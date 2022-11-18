@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri:300,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #333333;
+}
+
+p, h4{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+/*-----NAVBAR SECTION------*/
+
+
+.navbar-brand {
+    color:#ffffff;
+    margin-left: 8%;
+    border: 2px solid #333333;
+
+}
+
+header a{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 90%;
+}
+
+.navbar-nav {
+    margin-right: 15%;
+}
+
+
+header .nav-item{
+    padding: 0.5em;
+}
+
+
+header .nav-link:hover{
+    
+    background-color: #ffffff;
+    border-radius: 5%;
+}
+
+
+/*----BANNER SECTION-----*/
+
+header{
+    background: url(img/toolsimage.jpg);
+    background-position: cover;
+    height: 100vh;
+}
+
+.site-text{
+    padding: 25vmin 0vmin;
+}
+
+.site-text p{
+    margin-top: 3%;
+    width: 60%;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+hr{
+    width: 50%;
+}
+
+.site-text h4{
+    font-weight: 700;
+    font-size: 4em;
+}
+
+
+/*------SECTION: 2-------*/
+
+
+
+section{
+    margin-top: 5%;
+}
+
+.site-btn a{
+    text-decoration: none;
+    color: #333333;
+}
+
+
+
+.site-btn{
+    background: none;
+    border: 3px solid #e1f4f3;
+    padding: 2px 9px;
+    
+}
+
+
+
+.col-12 h2{
+    padding: 10px 0px;
+}
+
+
+
+
+.gray{
+    border: 1px #706c61 solid;
+    margin: auto;
+    width: 60px;
+    
+}
+
+.col-md-4 {
+    margin-top: 6%;
+}
+/*-------SECTION - 3 -------*/
+
+.section-3 .row .col-md-6{
+    margin-top: 5%;
+}

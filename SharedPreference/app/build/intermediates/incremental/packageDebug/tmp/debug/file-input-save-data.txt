@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Jan 27 19:21:51 GMT 2021
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\alhim\\Documents\\The App Experts\\Training\\CodeLabs\\android-fundamentals-starter-apps-v2\\HelloSharedPrefs\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

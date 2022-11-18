@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri:300,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #333333;
+}
+
+p, h4{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+/*-----NAVBAR SECTION------*/
+
+header{
+    background-image: url(img/working-man.jpg);
+    background-position: cover;
+    height: 100vh;
+}
+
+
+.navbar-brand {
+    color:#ffffff;
+    margin-left: 8%;
+    border: 2px solid #333333;
+
+}
+
+header a{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 90%;
+}
+
+.navbar-nav {
+    margin-right: 15%;
+}
+
+
+header .nav-item{
+    padding: 0.5em;
+}
+
+
+header .nav-link:hover{
+    
+    background-color: #ffffff;
+    border-radius: 5%;
+}
+
+
+/*-------MAIN BANNER-------*/
+
+.welcome-text{
+    padding: 25vmin 0vmin;
+}
+
+.welcome-text p{
+    margin-top: 3%;
+    width: 60%;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+hr{
+    width: 50%;
+}
+
+.welcome-text h4{
+    font-weight: 700;
+    font-size: 4em;
+}
